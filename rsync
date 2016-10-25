@@ -1,0 +1,39 @@
+rsync -avz --exclude-from '/home/milinda/Projects/intracus/exclude-list.txt' /home/milinda/Projects/intracus/ root@172.16.3.65:/var/www/html
+
+
+
+rsync -avz --exclude-from '/home/milinda/Projects/intracus/exclude-list.txt' /home/milinda/Projects/intracus/ root@104.236.67.123:/var/www/intracus
+
+
+
+
+
+
+mysql -u root -p
+show databases;
+use customs;
+show tables;
+select * from users;
+select * from auth_activities;
+select * from user_permissions;
+UPDATE `users` SET `authentication`=9 WHERE `id` =1;
+
+
+click
+dbclick
+mouseover
+mousein
+mouseout
+change
+foucusin
+foucusout
+
+
+$('.sdfsf').click(function(){
+	var input1 = $('.input1').val();
+	var input2 = $('.input2').val();
+
+	if(input1!=""){
+		$('.input1').css({'border-color':'red'});
+	}
+});
